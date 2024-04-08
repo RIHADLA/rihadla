@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/4522acca74.js" 
+    crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container"> 
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html"><i class="fa-solid fa-heart nav-link logo"> RIHADLA_C</i></a>
+
+                <label for="check" class="checkbtn"><i class="fa-solid fa-bars"></i></label>
+        
+                <ul class="nav-menu">
+                    <li class="nav-menu-item">
+                        <a href="index.html" class="nav-menu-link nav-link nav-menu-link_active">Inicio</a></li>
+                    <li class="nav-menu-item">
+                        <a href="index.html" class="nav-menu-link nav-link">Acerca de mi</a></li>
+                    <li class="nav-menu-item">
+                        <a href="index.html" class="nav-menu-link nav-link">Trabajos</a></li>
+                    <li class="nav-menu-item">
+                        <a href="index.html" class="nav-menu-link nav-link">Servicios</a></li>
+                    <li class="nav-menu-item">
+                        <a href="index.html" class="nav-menu-link nav-link ">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="Acerca-de">
+                    <h2 class="Acerca-de-mi">Acerca de mi</h2>
+                    <p>¡Bienvenido a mi página!, te comento algo sobre mi</p>
+                    <p>
+                       Me llamo ROMMEL, naci en Perú y vivo en Lima. Esta es mi pagina de prueba y como veran ahi vamos, de hecho pongo lo mejor de mi y me adapto rapido. Como también vamos aprendiendo nuevas cosas para  ayudar a las personas como es lo que hago.</p>
+                </div>
+                <div class="Acerca-imagen">
+                    <img src="img/1paisaje.jpeg" alt="imagen portada" />
+                </div>
+            </section>
+
+            <section class="seccion-2">
+                <img src="img/paisaje.jpg"   alt="">
+            </section>
+
+            <section class="seccion-3">
+                <div class="trabajos"></div>
+                <h2>Trabajos</h2>
+            </section>
+
+            <section class="seccion-4">
+                <div>
+                    <img src="img/MILITAR.jpg" width="300px" height="400px"s>
+                    <h3 class="Acerca-de-mi">Titulo 1</h3>
+                    <p> Una de mis etapas donde viví una experiencia única, orgullo de ser parte del ejercito.
+                    </p>
+                     <button class="button-leermas">leer mas</button>
+                </div>
+                <div>
+                    <img src="img/music.png" width="300px" height="400px">
+                    <h3 class="Acerca-de-mi">Titulo 2</h3>
+                    <p> Mejora el estado de ánimo
+                        Reduce el estrés y la ansiedad
+                        Estimula la creatividad y la concentración
+                        A
+                    </p>
+                    <nav>
+                        <a><button class="button-leermas">leer mas</button></a>
+                    </nav>
+                   
+                </div>
+                <div>
+                    <img src="img/GYM.jpg" width="300px" height="400px">
+                    <h3 class="Acerca-de-mi">Titulo 3</h3>
+                    <p>
+                        Hacer ejercicio fortalece el cuerpo, mejora la salud física y mental, reduce el riesgo de enfermedades 
+                    </p>
+                    <button class="button-leermas">leer mas      </button>
+                </div>
+            </section>
+            <div class=”greeting” >
+                <h2>holaaaaaaaaa</h2>
+            </div>
+        </main>
+        <footer class="form-header">
+            <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+            <form action="" method="get" class="formulario" id="form">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      placeholder="pepe@gmail.com"
+                    />
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="form-row">
+                    <button class="button-enviar">Enviar</button>
+                </div>
+            </form>
+      
+        </footer>
+
+        <footer id="Contacto">
+            <div id="footer">
+                <a href="http://127.0.0.1:5500/practica.1/index.html">
+                    <i class="fa-solid fa-heart" style="color: rgb(235, 146, 14);"></i>
+                </a>
+                <div>
+                    <h2 class="fuente-acento Acerca-de-mi">Redes Sociales</h2>
+                </div>
+                <div>
+                    <nav>
+                        <ul>
+                            <li class="footer-li"><a href="">Instagram</a></li>
+                            <li class="footer-li"><a href="">Tik Tok</a></li>
+                            <li class="footer-li"><a href="https://api.whatsapp.com/send/?phone=%2B51947770524&text&type=phone_number&app_absent=0">WhatsApp</a></li>
+                            <li class="footer-li"><a href="https://www.youtube.com/@rihadla_c?fbclid=IwAR1UHUPcdoaxV1nxQW50n2uFYwYqUebduE0QLm3WGSICg144nqlwdL9Xfws">YouTube</a></li>
+                            <li class="footer-li"><a href="https://web.facebook.com/rihadl">Faccebook</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
