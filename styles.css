@@ -1,0 +1,336 @@
+/*-----------------------GENERAL------------------------*/
+*{
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 90px 20px 0px;
+    font-family: "robot", sans-serif;
+}
+.container{
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+/*----------------ENCABEZADO------------------------*/
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.header{
+  background-color: #635353;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline-end: 40px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.logo{
+    color: #ac883b;
+    font-size: 35px;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+    
+    width: max-content;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: px;
+  margin: 0 auto;
+  align-items: center;
+}
+.nav-menu{
+  display: flex;
+  margin-right: 20px;
+  list-style: none;
+  float: right;
+}
+.nav-menu-item{
+font-size: 20px;
+margin: 0 5px;
+line-height: 80px;
+text-transform: uppercase;
+width: max-content;
+}
+.nav-menu-link{
+  padding: 8px 12px ;
+  border-radius: 5px;
+}
+.nav-menu-link:hover
+.nav-menu-link_active{
+background-color: rgb(14, 43, 43);
+transition: 1s;
+}
+
+.links{
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: flex-end;
+  }  
+.seccion-1{
+    background-color: rgb(196, 193, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+.Acerca-de-mi{
+  color: #ac883b;
+}
+  .seccion-2{
+    width: 100%;
+    
+
+    }
+  .seccion-3{
+    background-color: rgb(196, 193, 190);
+    color: #ac883b;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .seccion-4{
+    background-color: rgb(196, 193, 190);
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap
+    align-items: center;
+    padding: 10px 30px;
+    gap: 3em;
+    display: ;
+  }
+  .button-leermas{
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  main .seccion-4 img{
+    border-radius: 30px;
+    margin: 3px red;
+    border: #098519;
+  }
+
+/*------------------CONTACTO-----------------------*/
+#Contacto{
+   background-color: #635353;
+   color: #ac883b;
+
+   width: 100%;
+   padding: 50px;
+  
+} 
+#footer{
+   text-align: center;
+}
+
+footer .fa-heart{
+   position: fixed;
+   color: #ee810c;
+   bottom: 22px;
+   right: 30px;
+   font-size: 35px;
+  }
+  
+ .footer-li{
+   padding: 1px;
+  }
+  
+/* -------------  FORMULARIO ------------- */
+.form-header{
+     background-color: #eaedf0;
+     text-align: center;
+     border: 1px solid #d6d9dc;
+     border-radius: 3px;
+
+     width: 100%;
+     margin: 0.5px auto;
+     padding: 50px;
+  }
+  /* ------------- CAMPOS DEL FORMULARIO ------------- */
+.formulario{
+  
+  
+}
+  .form-row{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .form-row input[type="text"]
+  .form-row input[type="email"] {
+    background-color: #bdbdbd;
+    border: ;
+    border-radius: 10px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+    width: 100%;
+  }
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+    color: #ffffff;
+    background-color: #5995da;
+  
+    border: none;
+    border-radius: 3px;
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  .form-row button:hover {
+    background-color: #76aeed;
+  }
+  
+  .form-row button:active {
+    background-color: #407fc7;
+  }
+  .button-enviar{
+    background-color: #ac883b;
+    color: white;
+    border: none;
+    border-radius: 3px;
+  }
+.formulario{
+    display: block;
+  }
+  
+
+
+/* ----------------MENU--------------------------*/
+.checkbtn{
+    font-size: 30px;
+    color: #ffffff;
+    float: right;
+    
+    margin-right: 40px;
+    line-height: 60px;
+    cursor: pointer;
+
+    display: none;
+  }
+     /*MEDIA QUERIS*/
+
+  /* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+  /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+  body{
+   padding-top: 70px;
+   
+}
+a{
+   text-decoration: none;
+   color: #fff;
+}
+.nav{
+   justify-content: space-between;
+   align-items: center;
+  
+}
+.header{
+   height: 60px;
+   background-color: burlywood;
+}
+
+.logo{
+   font-size: 25px;
+  padding: 0 20px;
+   line-height: 80px;
+}
+.nav-menu{
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #2c3e50 ;
+  position: fixed;
+  left: 0;
+  top: 60px;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+
+  height: calc(100% - 60px);
+  overflow-y: auto;
+
+  left: 100%;
+  transition: left 0.5s;
+}
+.nav-menu-item{
+line-height: 70px;
+}
+.nav-menu-link{
+  padding: 8px 12px ;
+  border-radius: 5px;
+}
+.nav-menu-link:hover,
+.nav-menu-link_active {
+  background: none;
+  color: #83c5f7;
+}
+.checkbtn{
+  display: block ;
+}
+.nav-menu_visible{
+left:0;
+}
+.seccion-1{
+  display: block;
+  
+}
+.Acerca-de .Acerca-imagen {
+  align-items: center;
+}
+
+.seccion-2 img{
+  width: max-content;
+}
+.seccion-4{
+  display: block;
+}
+/*ACTIVE*/
+.nav.active {
+  height: 100vh;
+}
+.nav.active nav-menu {
+  opacity: 1;
+}
+
+}
+    
+  
+ 
+
